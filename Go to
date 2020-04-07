@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	cout << "Nama : Nadia Ramadhani Azzahro" << endl;
+	cout << "NIM : ETE10190112" << endl;
+	
+	//membuat program goto
+	char jump = 'C' ;
+	
+	cout<< "Tolong tuliskan huruf n untuk melompat" << endl;
+	cout<< "Tolong tuliskan huruf c untuk tidak melompat" << endl;
+	cin>> jump;
+	
+	cout << "L" <<endl;
+	if ( jump == 'n' ) goto lompat;
+	cout << "M" <<endl;
+	lompat:
+	cout << "N" <<endl;
+	
+	return 0;
+}
