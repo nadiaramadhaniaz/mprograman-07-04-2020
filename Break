@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	cout << "Nama : Nadia Ramadhani Azzahro" << endl;
+	cout << "Nim : ETE10190112" << endl;
+	
+	
+	//membuat program break
+
+		for ( int i = 10 ; i <= 75 ; i++){
+			if ( i > 35) break;
+			cout << i << endl;
+		}
+	return 0;
+}
